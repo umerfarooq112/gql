@@ -15,7 +15,7 @@ async function StartServer() {
   await apolloServer.start();
 
   const uri =
-    "mongodb+srv://umer:Helloworld@cluster0.qr6pp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+    "";
 
   mongoose.connect(uri);
   mongoose.connection
